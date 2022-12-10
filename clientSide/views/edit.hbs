@@ -1,0 +1,26 @@
+{{>header}}
+{{>navbar}}
+<section class="my-5 container">
+    <form method="post">
+         <div class="mb-3">
+            <input class="form-control" name="id" placeholder="id" value="{{result.id}}" disabled>
+        </div>
+        <div class="mb-3">
+            <input class="form-control" name="title" placeholder="title" value="{{result.title}}">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" name="Author" placeholder="Author" value="{{result.Author}}">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" name="section" placeholder="section" value="{{result.section}}">
+        </div>
+         <div class="mb-3">
+            <input class="form-control" name="numberpages" placeholder="no.of pages" value="{{result.numberpages}}">
+        </div>
+</div>
+        <div class="mb-3">
+            <button class="btn btn-primary">Edit</button>
+        </div>
+    </form>
+</section>
+{{>footer}}
